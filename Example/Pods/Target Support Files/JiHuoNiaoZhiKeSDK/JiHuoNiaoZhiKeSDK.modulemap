@@ -1,0 +1,6 @@
+framework module JiHuoNiaoZhiKeSDK {
+  umbrella header "JiHuoNiaoZhiKeSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_JiHuoNiaoZhiKeSDK_Tests {
+  umbrella header "Pods-JiHuoNiaoZhiKeSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
