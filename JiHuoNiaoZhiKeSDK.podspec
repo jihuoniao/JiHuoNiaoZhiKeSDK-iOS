@@ -38,7 +38,16 @@ TODO: Add long description of the pod here.
 
 
   s.frameworks =
-  'Accelerate','AddressBook','AdSupport','AppTrackingTransparency','AudioToolbox','AVFoundation','AVKit','CoreData','CFNetwork','CoreFoundation','CoreGraphics','CoreMotion','CoreML','CoreHaptics','CoreTelephony','CoreText','CoreLocation','DeviceCheck','Foundation','ImageIO','JavaScriptCore','MediaPlayer','MessageUI','MobileCoreServices','QuartzCore','QuickLook','SafariServices','Security','StoreKit','UIKit','WebKit','SystemConfiguration','QuartzCore','MobileCoreServices'
+'Accelerate','AdSupport','AudioToolbox','AVFoundation','AVKit','CoreData','CFNetwork','CoreFoundation','CoreGraphics','CoreMotion','CoreTelephony','CoreText','CoreLocation','Foundation','ImageIO','JavaScriptCore','MediaPlayer','MessageUI','MobileCoreServices','QuartzCore','QuickLook','SafariServices','Security','StoreKit','UIKit','WebKit','SystemConfiguration'
+
+s.weak_frameworks = [
+  'DeviceCheck',              
+  'CoreML',                
+  'CoreHaptics',               
+  'AppTrackingTransparency',  
+  'AddressBook'
+ 
+]
 
   s.libraries = 'bz2', 'c++', 'iconv', 'resolv.9', 'sqlite3', 'xml2', 'z', 'c++abi'
   s.dependency 'WechatOpenSDK'
